@@ -1,5 +1,6 @@
 package com.softtek.modelo;
 
+//Ejercicio3
 public class Persona {
     private String nombre;
     private int edad;

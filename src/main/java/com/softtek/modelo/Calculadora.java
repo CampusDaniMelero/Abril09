@@ -1,12 +1,6 @@
 package com.softtek.modelo;
-
+//Ejercicio2
 public class Calculadora {
-    //Ejercicio2
-
-//    Crear una clase Calculadora con métodos estáticos: suma, resta, multiplica y divide.
-
-
-
 
     public static double suma(double a, double b) {
         return a + b;
