@@ -1,6 +1,16 @@
 package com.softtek.modelo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@AllArgsConstructor
+@Data
 public class Producto {
+
+
+
+
+    public static int Contador=1;
     private final int ID;
 
     private String nombre;
@@ -8,7 +18,7 @@ public class Producto {
     private double precio;
 
     public Producto() {
-        this.ID=1;
+        this.ID=++Contador;
     }
 
     public double importe(int cantidad){
